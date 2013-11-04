@@ -6,6 +6,13 @@
 *  blah blah
 * @section DESCRIPTION
 *  blah blah blah
+*
+*Diana Roberts
+*drober23@uic.edu
+*665747239
+*CS 340 Fall 2013
+*HOMEWORK 1
+*
 */
 
 #ifndef MAINWINDOW_H
@@ -37,9 +44,9 @@ public:
 
 private slots:
     void on_pushButton_clicked();
-    void on_pushButton_2_clicked();
-    void on_pushButton_3_clicked();
-    void on_pushButton_4_clicked();
+    void on_pushButton_2_clicked(); /**< slot for button 2>*/
+    void on_pushButton_3_clicked(); /**< slot for button 3>*/
+    void on_pushButton_4_clicked(); /**< slot for button 4>*/
 
 private:
     Ui::MainWindow *ui;
